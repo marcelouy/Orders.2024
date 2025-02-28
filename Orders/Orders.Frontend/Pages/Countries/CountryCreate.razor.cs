@@ -28,7 +28,7 @@ namespace Orders.Frontend.Pages.Countries
             var toast = SweetAlertService.Mixin(new SweetAlertOptions
             {
                 Toast = true,
-                Position = SweetAlertPosition.Center,
+                Position = SweetAlertPosition.BottomRight,
                 ShowConfirmButton = true,
                 Timer = 3000,
             });
